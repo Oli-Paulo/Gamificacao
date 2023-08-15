@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+  body {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo-senai {
+    max-width: 300px;
+  }
+  .aluno {
+    border-radius: 0px;
+  }
+  .perfil-do-aluno {
+    display: flex;
+    flex-direction: column;
+  }
+  main .perfil-do-aluno img {
+    margin: 0;
+    max-width: 250px;
+  }
+  .status-do-aluno{
+    display: flex;
+    flex-direction: column;
+  }
+}
